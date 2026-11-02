@@ -1,0 +1,3 @@
+import { Footer, Header, PageIntro } from "@/components/chrome";
+import { ParticipationForm } from "@/components/participation-form";
+export default function ParticipatePage() { return <><Header/><main><PageIntro eyebrow="Participación voluntaria" title="Sumate sin entregar de más.">Una participación activa por cuenta verificada es la regla propuesta para producción. La decisión sobre cambios de club se mantiene pendiente.</PageIntro><section className="section"><div className="shell"><div className="notice" style={{ marginBottom:"1.4rem" }}><strong>Transparencia:</strong> esta pantalla es un flujo DEMO. No hay autenticación conectada, no se almacenan datos y no se pide DNI.</div><ParticipationForm/></div></section></main><Footer/></>; }
